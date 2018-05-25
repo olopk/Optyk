@@ -77,6 +77,24 @@ footer {
 footer .glyphicon {
     font-size: 20px;
 }
-.googleMap {
-    padding-bottom: 20px;
+.navbar {
+    margin-bottom: 0;
+    background-color: #c0392b;
+    z-index: 1;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+    color:#fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #c0392b !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
 }
